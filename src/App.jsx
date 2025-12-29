@@ -2,6 +2,7 @@ import { useState, useRef } from 'react'
 import * as pdfjsLib from 'pdfjs-dist'
 import mammoth from 'mammoth'
 import JSZip from 'jszip'
+import { Analytics } from "@vercel/analytics/react"
 import './index.css'
 
 // Initialize PDF.js worker using a more robust method for Vite
@@ -310,6 +311,7 @@ function App() {
           </a>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }
