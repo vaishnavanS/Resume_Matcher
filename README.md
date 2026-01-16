@@ -5,12 +5,6 @@ The idea is simple: you upload a resume (PDF/DOCX) and paste in a job descriptio
 
 ---
 
-## Why I Built This
-I noticed that recruiters often spend a lot of time scanning resumes manually, and job seekers struggle to figure out if their resume fits a role.  
-This project is my attempt to automate that process in a lightweight way, while also practicing text processing and web app development.
-
----
-
 ## Features
 - Upload a resume file and paste a job description.
 - Extract keywords and skills from both documents.
