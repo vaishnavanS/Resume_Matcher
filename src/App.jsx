@@ -139,7 +139,7 @@ function App() {
 
     try {
       // NOTE: For a real production app, use a backend to hide your API key.
-      const API_KEY = 'ruGykhJsi84pDoyIA7aOFcHDQCp4s8SR'
+      const API_KEY = process.env.MISTRAL_API_KEY
       const response = await fetch('https://api.mistral.ai/v1/chat/completions', {
         method: 'POST',
         headers: {
